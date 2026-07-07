@@ -11,6 +11,12 @@ filterButtons.forEach(button => {
     button.addEventListener("click", () => {
         const selectedFilter = button.dataset.filter;
 
+        filterButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
         projectCards.forEach(project => {
             const projectCategory = project.dataset.category;
 

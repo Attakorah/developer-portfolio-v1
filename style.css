@@ -205,6 +205,12 @@ section p {
     color: var(--accent);
 }
 
+.filter-buttons button.active {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+}
+
 /* Footer */
 
 footer {
