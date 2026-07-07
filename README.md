@@ -19,6 +19,10 @@ This is my first developer portfolio website as part of my journey toward becomi
 - Git
 - GitHub
 
+## Live Demo
+
+https://attakorah.github.io/developer-portfolio-v1/
+
 ## Author
 
 Attakorah Emmanuel
