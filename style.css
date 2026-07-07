@@ -183,6 +183,28 @@ section p {
     font-family: var(--font-mono);
 }
 
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.filter-buttons button {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    font-family: var(--font-mono);
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
 /* Footer */
 
 footer {
